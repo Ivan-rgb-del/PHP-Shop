@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+/* PAGE */
+
+body {
+  background-color: #040D12;
+}
+
+.admin-products table {
+  border: 1px solid #888;
+  margin-top: 25px;
+}
+
+.admin-products table th{
+  background: #040D12;
+  color: beige;
+}
+
+.admin-products table td{
+  vertical-align: middle;
+  background-color: #0e2432;
+  color: beige;
+}
+
+.admin-products-btn {
+  text-decoration: none;
+  background: #0e2432;
+  padding: 10px 12px;
+  color: beige;
+  cursor: pointer;
+  border: 1px solid #888;
+}

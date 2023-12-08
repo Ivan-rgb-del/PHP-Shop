@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  background-color: #040D12;
+}
+
+.nav {
+  background: #0e2432;
+  margin-bottom: 45px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 15px;
+}
+
+.nav .flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: beige;
+}
+
+.nav .title img {
+  width: 70px;
+  margin-right: 15px;
+}
+
+.nav .flex .div-link ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.nav .flex .div-link ul a {
+  text-decoration: none;
+  color: beige;
+  margin: 0px 10px;
+  background: #040D12;
+  padding: 10px 14px;
+  border: 1px solid #888;
+  border-radius: 10px;
+}
+
+.orders table {
+  border: 1px solid #888;
+  margin-bottom: 25px;
+}
+
+.orders table th{
+  background: #040D12;
+  color: beige;
+}
+
+.orders table td{
+  vertical-align: middle;
+  background-color: #0e2432;
+  color: beige;
+}

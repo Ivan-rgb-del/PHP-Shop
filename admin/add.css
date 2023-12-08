@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+body {
+  background-color: #040D12;
+}
+
+.add_product {
+  background-color: #0e2432;
+  width: 65%;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #888;
+}
+
+.add_product .add_product-form input {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 6px 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.add_product .add_product-form label {
+  color: beige;
+}
+
+.btn {
+  background-color: #040D12;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  color: beige;
+  border: 1px solid #888;
+}
+
+.dropzone {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
